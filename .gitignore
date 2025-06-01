@@ -1,0 +1,46 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore venv
+venv/
+env/
+ENV/
+.venv/
+
+# Ignore PyCharm project files
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled files
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Ignore logs
+*.log
+
+# Ignore test coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+
+# Ignore virtualenv tools output
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore environment files (if using)
+.env
+*.env
+
+
+# Ignore cloned dnstwist repo
+dnstwist/
